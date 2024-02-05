@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(143, 143, 143);
+    display: flex;
+    justify-content: center;
+}
+
+#boggle {
+    background-color: rgb(122, 45, 45);
+    margin: auto;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 75%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 3rem;
+}
+
+button{
+    background-color: blue;
+    color: azure;
+    border-style: outset;
+    border-radius: 2rem;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color:  white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+input:focus{
+    background-color: white;
+    outline-style: none;
+}
+
+span{
+    color: white;
+}
+
+ul li{
+    color: rgb(0, 248, 0);
+}
